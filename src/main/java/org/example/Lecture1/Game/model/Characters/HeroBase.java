@@ -1,4 +1,4 @@
-package org.example.Lecture1.Game.model;
+package org.example.Lecture1.Game.model.Characters;
 
 import java.util.Random;
 
@@ -20,8 +20,8 @@ public abstract class HeroBase {
     protected Double damageAbility;
     protected double protectAbility;
     protected double healAbility;
-
-
+    protected Integer levelUpBorder;
+    protected int lifeStatus;
 
     protected HeroBase(String name) {
         this.id = idNum++;
@@ -34,6 +34,8 @@ public abstract class HeroBase {
         this.damageAbility = 1.0;
         this.protectAbility = 1.0;
         this.healAbility = 1.0;
+        this.levelUpBorder = 100;
+        this.lifeStatus = 1;
     }
 
     protected HeroBase() {
@@ -86,6 +88,10 @@ public abstract class HeroBase {
         return healAbility;
     }
 
+    public int getLifeStatus() {
+        return lifeStatus;
+    }
+
     protected void getHealed(int plusHP) {
         if (this.currentHP + plusHP >= this.maxHP) {
             this.currentHP = this.maxHP;
@@ -108,7 +114,7 @@ public abstract class HeroBase {
         System.out.println("Hero " + this.getName() + " damaged " + target.getName() + " on " + damage + " points");
         target.getDamage(damage);
         this.experiencePoints += damage * 2;
-        if (this.experiencePoints >= 100) {
+        if (this.experiencePoints >= this.levelUpBorder) {
             this.levelUp();
         }
         System.out.println();
@@ -117,11 +123,21 @@ public abstract class HeroBase {
     private void levelUp() {
         this.level++;
         this.experiencePoints = 0;
+        this.levelUpBorder += 100;
+        this.maxHP += 10;
+        this.currentHP = maxHP;
+        this.damageAbility += level / 20.0;
+        this.protectAbility += level / 20.0;
+        this.healAbility += level / 20.0;
         System.out.println("Hero " + this.getName() + " got new level: " + this.level);
     }
 
     private void getDied() {
         System.out.println("Hero " + this.getName() + " is died ");
+        this.damageAbility = 0.0;
+        this.protectAbility = 0.0;
+        this.healAbility = 0.0;
+        this.lifeStatus = 0;
     }
 
 

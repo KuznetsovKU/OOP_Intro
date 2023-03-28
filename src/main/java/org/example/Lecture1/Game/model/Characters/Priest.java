@@ -1,4 +1,4 @@
-package org.example.Lecture1.Game.model;
+package org.example.Lecture1.Game.model.Characters;
 
 public class Priest extends HeroBase{
     private int maxElixir;
@@ -6,7 +6,6 @@ public class Priest extends HeroBase{
     private Double damageIndex = 1.0;
     private Double protectIndex = 0.6;
     private  Double healIndex = 1.2;
-
 
     public Priest(String name) {
         super(name);

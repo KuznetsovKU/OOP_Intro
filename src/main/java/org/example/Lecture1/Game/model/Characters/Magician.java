@@ -1,4 +1,4 @@
-package org.example.Lecture1.Game.model;
+package org.example.Lecture1.Game.model.Characters;
 
 public class Magician extends HeroBase {
     private int maxMana;
@@ -20,7 +20,4 @@ public class Magician extends HeroBase {
     public Magician() {
         this("Hero_" + idNum.toString());
     }
-
-
-
 }

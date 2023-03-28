@@ -4,33 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Game/model/HeroBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Game/model/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Game/model/Priest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Points/Points.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Points/model/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Points/model/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Robots/Robots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lection1/Robots/model/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/Vending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/BottledWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/Chocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/ChocolateVM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/HotDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/HotDrinkVM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/VendingMachineInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar1/VendingMachine/model/WaterVM.java" afterDir="false" />
+    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added Lecture1, Seminar1, Homework1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Infrastructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/QuickFight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/HeroBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Characters/HeroBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Characters/Magician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Characters/Priest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +50,7 @@
       <recent name="org.example.Seminar1.VendingMachine.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Vending">
+  <component name="RunManager" selected="Application.Game">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Lecture1.Game.Game" />
       <module name="OOP_Intro" />
@@ -124,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Vending" />
         <item itemvalue="Application.Game" />
+        <item itemvalue="Application.Vending" />
         <item itemvalue="Application.Robots" />
         <item itemvalue="Application.Points" />
       </list>
@@ -140,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679845868451</updated>
     </task>
+    <task id="LOCAL-00001" summary="added Lecture1, Seminar1, Homework1">
+      <created>1680027663962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680027663962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +141,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Lecture1, Seminar1, Homework1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Lecture1, Seminar1, Homework1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
