@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added Lecture1, Seminar1, Homework1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Infrastructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/QuickFight.java" afterDir="false" />
+    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added QuickFight and Infrastructure modules">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/ClassicLaptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/ClientChoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/LaptopActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Macbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Transformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Ultrabook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/StorageFiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/Caffe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/ActorBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/MarketBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/QueueBehaviour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/HeroBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Characters/HeroBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Characters/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Priest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecture1/Game/model/Characters/Priest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +57,27 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.Seminar2.model" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.example.Seminar1.VendingMachine.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Game">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Caffe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Seminar2.Caffe" />
+      <module name="OOP_Intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Seminar2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Lecture1.Game.Game" />
       <module name="OOP_Intro" />
@@ -64,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Points" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lecture1.Points.Points" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Homework2.Main" />
       <module name="OOP_Intro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Lecture1.Points.*" />
+          <option name="PATTERN" value="org.example.Homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,10 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Caffe" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.Vending" />
         <item itemvalue="Application.Robots" />
-        <item itemvalue="Application.Points" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680027663962</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added QuickFight and Infrastructure modules">
+      <created>1680034491321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680034491321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Lecture1, Seminar1, Homework1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Lecture1, Seminar1, Homework1" />
+    <MESSAGE value="added QuickFight and Infrastructure modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="added QuickFight and Infrastructure modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
