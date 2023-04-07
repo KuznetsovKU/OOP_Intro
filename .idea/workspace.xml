@@ -4,24 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added QuickFight and Infrastructure modules">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/ClassicLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/ClientChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/LaptopActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Macbook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Transformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Laptops/Ultrabook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Homework2/model/StorageFiller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/Caffe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/Actor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/ActorBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/MarketBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar2/model/QueueBehaviour.java" afterDir="false" />
+    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added Seminar3 and Homework3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/StudentGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/StudentGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/TeacherGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/TeacherGroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/UserComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/StudentGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/TeacherGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/view/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/view/TeacherView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/view/UserView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,18 +56,24 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Personal documents/Education/=Projects/OOP_Intro&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.Seminar3.Students.data" />
+      <recent name="org.example.Seminar3.CwCats.Shelters" />
       <recent name="org.example.Seminar2.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal documents\Education\=Projects\OOP_Intro\src\main\java\org\example\Seminar3\CwCats\IteratorsAndComparartors" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.example.Seminar1.VendingMachine.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.org.example.Seminar3.Students.Main">
     <configuration name="Caffe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Seminar2.Caffe" />
       <module name="OOP_Intro" />
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Robots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lecture1.Robots.Robots" />
+    <configuration name="org.example.Seminar3.CwCats.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Seminar3.CwCats.Main" />
       <module name="OOP_Intro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Lecture1.Robots.*" />
+          <option name="PATTERN" value="org.example.Seminar3.CwCats.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Seminar1.VendingMachine.Vending" />
+    <configuration name="org.example.Seminar3.Students.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Seminar3.Students.Main" />
       <module name="OOP_Intro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Seminar1.VendingMachine.*" />
+          <option name="PATTERN" value="org.example.Seminar3.Students.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Seminar3.Students.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.Seminar3.CwCats.Main" />
         <item itemvalue="Application.Caffe" />
         <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Vending" />
-        <item itemvalue="Application.Robots" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680034491321</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added Seminar2 and Homework2">
+      <created>1680437194691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680437194692</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added Seminar3 and Homework3">
+      <created>1680891104079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680891104079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +203,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Lecture1, Seminar1, Homework1" />
     <MESSAGE value="added QuickFight and Infrastructure modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="added QuickFight and Infrastructure modules" />
+    <MESSAGE value="added Seminar2 and Homework2" />
+    <MESSAGE value="added Seminar3 and Homework3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Seminar3 and Homework3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
