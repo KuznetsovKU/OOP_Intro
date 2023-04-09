@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added Seminar3 and Homework3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/StudentGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/StudentGroupIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/TeacherGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/TeacherGroupIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/UserComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/StudentGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/TeacherGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/view/StudentView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/view/TeacherView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/view/UserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added Seminar4 and Homework4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680891104079</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added Seminar4 and Homework4">
+      <created>1681076503048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681076503048</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +190,8 @@
     <MESSAGE value="added QuickFight and Infrastructure modules" />
     <MESSAGE value="added Seminar2 and Homework2" />
     <MESSAGE value="added Seminar3 and Homework3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Seminar3 and Homework3" />
+    <MESSAGE value="added Seminar4 and Homework4" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Seminar4 and Homework4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
