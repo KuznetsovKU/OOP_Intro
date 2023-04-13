@@ -9,10 +9,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        CatShelter cats = new CatShelter(List.of(new Cat("name")));
-        Iterator<Animal> iterator = cats.iterator();
-        if(iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
+//        CatShelter cats = new CatShelter(List.of(new Cat("name")));
+//        Iterator<Animal> iterator = cats.iterator();
+//        if(iterator.hasNext()) {
+//            System.out.println(iterator.next());
+//        }
     }
 }

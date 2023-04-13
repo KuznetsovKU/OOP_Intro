@@ -8,27 +8,27 @@ import java.util.Scanner;
 public class LaptopComparator implements Comparator<Laptop> {
     @Override
     public int compare(Laptop o1, Laptop o2) {
-//        int chosenParameter = getCompareParameter();
-//        switch (chosenParameter) {
-//            case 1:
-//                return compareByType(o1, o2);
-//            case 2:
-//                return compareByRAMSize(o1, o2);
-//            case 3:
-//                return compareByMemoryType(o1, o2);
-//            case 4:
-//                return compareByMemorySize(o1, o2);
-//            case 5:
-//                return compareByScreenSize(o1, o2);
-//            case 6:
-//                return compareByOsType(o1, o2);
-//            case 7:
-//                return compareByBodyMaterial(o1, o2);
-//            case 8:
-//                return compareByColor(o1, o2);
-//        }
-//        return 0;
-        return compareByRAMSize(o1, o2);
+        int chosenParameter = getCompareParameter();
+        switch (chosenParameter) {
+            case 1:
+                return compareByType(o1, o2);
+            case 2:
+                return compareByRAMSize(o1, o2);
+            case 3:
+                return compareByMemoryType(o1, o2);
+            case 4:
+                return compareByMemorySize(o1, o2);
+            case 5:
+                return compareByScreenSize(o1, o2);
+            case 6:
+                return compareByOsType(o1, o2);
+            case 7:
+                return compareByBodyMaterial(o1, o2);
+            case 8:
+                return compareByColor(o1, o2);
+        }
+        return 0;
+//        return compareByRAMSize(o1, o2);
     }
 
     public int compareByType(Laptop o1, Laptop o2) {

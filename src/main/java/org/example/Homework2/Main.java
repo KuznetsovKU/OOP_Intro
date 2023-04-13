@@ -23,11 +23,11 @@ public class Main {
         Collections.sort(laptopList, comparator);
         System.out.println("-----");
 
-        System.out.println(laptopList.size());
-        Iterator<Laptop> iterator = laptopList.iterator();
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
+//        System.out.println(laptopList.size());
+//        Iterator<Laptop> iterator = laptopList.iterator();
+//        while (iterator.hasNext()){
+//            System.out.println(iterator.next());
+//        }
 
     }
 }

@@ -5,7 +5,7 @@ import org.example.Seminar3.CwCats.Animals.Animal;
 import java.util.Iterator;
 import java.util.List;
 
-public class AnimalIterator implements Iterator<Animal> {
+public class AnimalIterator<T extends Animal> implements Iterator<T> {
     protected int counter;
     private List<Animal> animals;
     public AnimalIterator(List<Animal> animals) {
@@ -22,10 +22,10 @@ public class AnimalIterator implements Iterator<Animal> {
     }
 
     @Override
-    public Animal next() {
+    public T next() {
         if (!hasNext()) {
             return null;
         }
-        return animals.get(counter++);
+        return (T) animals.get(counter++);
     }
 }

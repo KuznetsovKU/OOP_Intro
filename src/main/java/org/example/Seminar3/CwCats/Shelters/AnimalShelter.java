@@ -6,7 +6,7 @@ import org.example.Seminar3.CwCats.Animals.Animal;
 import java.util.Iterator;
 import java.util.List;
 
-public class AnimalShelter implements Iterable<Animal>{
+public class AnimalShelter<T extends Animal> implements Iterable<T>{
     private List<Animal> animals;
 
     public AnimalShelter(List<Animal> animals) {
@@ -21,7 +21,7 @@ public class AnimalShelter implements Iterable<Animal>{
     }
 
     @Override
-    public Iterator<Animal> iterator() {
+    public Iterator<T> iterator() {
         return new AnimalIterator(animals);
     }
 }

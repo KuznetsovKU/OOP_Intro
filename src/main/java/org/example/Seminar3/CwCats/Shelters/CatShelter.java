@@ -9,7 +9,7 @@ import org.example.Seminar3.CwCats.IteratorsAndComparartors.CatIterator;
 import java.util.Iterator;
 import java.util.List;
 
-public class CatShelter extends AnimalShelter {
+public class CatShelter extends AnimalShelter<Cat> {
     private List<Cat> cats;
 
     public CatShelter(List<Cat> cats) {
@@ -19,15 +19,9 @@ public class CatShelter extends AnimalShelter {
     public CatShelter() {
     }
 
-//    @Override
-//    public Iterator<Animal> iterator() {
-//        return new AnimalIterator(animals);
-//    }
-//
-//    @Override
-//    public Iterator<Cat> iterator() {
-//        return new AnimalIterator(cats); {
-//        }
-//    }
+    @Override
+    public Iterator<Cat> iterator() {
+        return new AnimalIterator(cats);
+    }
 }
 
