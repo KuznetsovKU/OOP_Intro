@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added Seminar5 and Homework5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/Ex_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/TextAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/TextManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/TextPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/WordDeleter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/WordFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex1/WordReplacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex2/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex2/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex2/CalculatorOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex2/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex3/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex3/BankingAppWithdrawalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex3/FixedTermDepositAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar6/Ex3/NewClass.java" afterDir="false" />
+    <list default="true" id="95e020e3-4a72-4ae1-a67a-c05db37bec0c" name="Changes" comment="added Seminar6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/PreStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/UserComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/data/UserComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Seminar3/Students/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Personal documents/Education/=Projects/Meeting_Python_23"
+    "last_opened_file_path": "D:/Personal documents/Education/=Projects/Tinkoff/TinkoffJava"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,7 +63,7 @@
       <recent name="org.example.Seminar1.VendingMachine.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.Seminar6.Ex2.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ex_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Seminar6.Ex1.Ex_1" />
       <module name="OOP_Intro" />
@@ -85,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Homework2.Main" />
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Lecture1.Game.Game" />
       <module name="OOP_Intro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Homework2.*" />
+          <option name="PATTERN" value="org.example.Lecture1.Game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Seminar5.View.UserView" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Seminar3.Students.Main" />
       <module name="OOP_Intro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Seminar5.View.*" />
+          <option name="PATTERN" value="org.example.Seminar3.Students.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.View" />
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.org.example.Seminar6.Ex2.Main" />
         <item itemvalue="Application.Ex_1" />
-        <item itemvalue="Application.View" />
-        <item itemvalue="Application.UserView" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681401381461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added Seminar6">
+      <created>1681575406023</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681575406023</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +225,8 @@
     <MESSAGE value="added Seminar3 and Homework3" />
     <MESSAGE value="added Seminar4 and Homework4" />
     <MESSAGE value="added Seminar5 and Homework5" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Seminar5 and Homework5" />
+    <MESSAGE value="added Seminar6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Seminar6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

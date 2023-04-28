@@ -1,9 +1,6 @@
 package org.example.Seminar3.Students;
 
-import org.example.Seminar3.Students.data.Student;
-import org.example.Seminar3.Students.data.Teacher;
-import org.example.Seminar3.Students.data.User;
-import org.example.Seminar3.Students.data.UserComparator;
+import org.example.Seminar3.Students.data.*;
 import org.example.Seminar3.Students.view.StudentView;
 import org.example.Seminar3.Students.view.TeacherView;
 
@@ -29,5 +26,13 @@ public class Main {
 
         TeacherView teacherView = new TeacherView();
         teacherView.sendOnConsole(List.of(teacher1, teacher2));
+
+        StudentView stView2 = new StudentView();
+        stView2.sendOnConsole(List.of(new PreStudent("PREstdFN_1", "PREstdSN_1", "PREstdP_1",
+                        LocalDate.of(1990, 10, 21), "Hogwarts"),
+                new PreStudent("PREstdFN_2", "PREstdSN_2", "PREstdP_2",
+                        LocalDate.of(1990, 10, 21), "Hogwarts")));
+
+        System.out.println(comp.compareWithDescription(teacher1, teacher2));
     }
 }

@@ -57,6 +57,13 @@ public class User {
                '}';
     }
 
+    public String getMinInfo(){
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", secondName='" + secondName +
+                '}';
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) {
